@@ -37,17 +37,18 @@
   --c-s6-darker: #4a5568;
   --c-s6-light: #e2e8f0;
   --c-s6-lighter: #f2f7fa;
+
+  --ff-archivo: 'Archivo', sans-serif;
+  --ff-archivo-narrow: 'Archivo Narrow', sans-serif;
 }
 
 /* semantic color variables */
 :root {
   --color-background: var(--c-gray-200);
   --card-background: var(--c-white);
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
 
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --font-family-base: var(--ff-archivo);
+  --font-family-narrow: var(--ff-archivo-narrow);
 
-  --section-gap: 160px;
+  --text-color: var(--c-gray-800);
 }

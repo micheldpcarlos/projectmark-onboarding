@@ -2,5 +2,21 @@
 @import './variables.scss';
 
 body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--font-family-base);
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
   background-color: var(--color-background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-wrap: break-word;
 }
