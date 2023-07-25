@@ -1,0 +1,53 @@
+:root {
+  --c-blue-highlight: #2462d1;
+  --c-gray-200: #edf2f7;
+  --c-gray-300: #e2e8f0;
+  --c-gray-400: #cbd5e0;
+  --c-gray-500: #bfcfe0;
+  --c-gray-800: #2d3748;
+  --c-white: #ffffff;
+
+  // Card Colors
+  --c-s1: #dabfff;
+  --c-s1-darker: #46426d;
+  --c-s1-light: #e9d9ff;
+  --c-s1-lighter: #f7f1ff;
+
+  --c-s2: #ffd6b3;
+  --c-s2-darker: #66421f;
+  --c-s2-light: #ffe4cc;
+  --c-s2-lighter: #fef6ef;
+
+  --c-s3: #99d1ff;
+  --c-s3-darker: #003a66;
+  --c-s3-light: #bfe3ff;
+  --c-s3-lighter: #e6f4ff;
+
+  --c-s4: #81dde5;
+  --c-s4-darker: #2a5154;
+  --c-s4-light: #aaecf2;
+  --c-s4-lighter: #def5f7;
+
+  --c-s5: #ffbfd2;
+  --c-s5-darker: #773a47;
+  --c-s5-light: #ffd9e4;
+  --c-s5-lighter: #fff2f6;
+
+  --c-s6: #cbd5e0;
+  --c-s6-darker: #4a5568;
+  --c-s6-light: #e2e8f0;
+  --c-s6-lighter: #f2f7fa;
+}
+
+/* semantic color variables */
+:root {
+  --color-background: var(--c-gray-200);
+  --card-background: var(--c-white);
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
