@@ -50,7 +50,8 @@ npm run dev
 
 
 #### My implementation
-<img width="1922" alt="image" src="https://github.com/micheldpcarlos/projectmark-onboarding/assets/29731180/fcf21619-efce-48af-a356-40a18d0fb083">
+<img width="1922" alt="image" src="https://github.com/micheldpcarlos/projectmark-onboarding/assets/29731180/44c419ad-82d2-4c59-a41f-a7268b07dba3">
+
 
 #### In Action
 https://github.com/micheldpcarlos/projectmark-onboarding/assets/29731180/a16ce42e-2b58-4cce-8163-d3c06413a9be
