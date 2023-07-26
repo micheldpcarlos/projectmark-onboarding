@@ -1,8 +1,8 @@
 # ProjectMark coding Challenge
 
-Project executed to show my skills as frontend engineer.
+Project executed to show my skills as a Frontend engineer at ProjectMark process.
 
-This project was made in one night and adresses all of the points requested in the :
+This project was made in one night and addresses all of the points requested in the chalenge:
 
 - ✅ Must be the same as the design on the screen
 - ✅ We will be looking for cleanliness of code and good design patterns
@@ -13,20 +13,25 @@ This project was made in one night and adresses all of the points requested in t
 - ✅ Add it to github or bitbucket and provide a link to the repo
 - ✅ Provide setup instructions on how to set it up and view
 
-
 Even tho I had little time to do it (1 night because somehow Programathor didn't send me notifications 🤔).
-I've included some extras like gh-pages configuration, dark mode toggle and linter configurations.
+I've included some extras like:
+
+- 404 page
+- gh-actions configuration to deploy on gh-pages
+- dark mode with a toggle
+- linter configurations
+- favicon and icons
 
 
-This project is hosted here:
-
-Gh-Pages-Link
+## Deployed
+This project is deployed at Github Pages and you can check it here:<br/>
+[https://micheldpcarlos.github.io/projectmark-onboarding](https://micheldpcarlos.github.io/projectmark-onboarding)
 
 ## How to run locally
 
 ### Clone this repository and install dependencies
 
-> Thi project was built using node 20.5, please make sure you're using the correct version.
+> This project was built using node 20.5, please make sure you're using the correct version.
 
 ```sh
 npm install
@@ -37,3 +42,28 @@ npm install
 ```sh
 npm run dev
 ```
+
+## Screenshots and Video
+
+#### Design
+<img width="1921" alt="image" src="https://github.com/micheldpcarlos/projectmark-onboarding/assets/29731180/432a2cd2-2ed3-4790-8e22-37b2a4de14e8">
+
+
+#### My implementation
+<img width="1922" alt="image" src="https://github.com/micheldpcarlos/projectmark-onboarding/assets/29731180/fcf21619-efce-48af-a356-40a18d0fb083">
+
+#### In Action
+https://github.com/micheldpcarlos/projectmark-onboarding/assets/29731180/a16ce42e-2b58-4cce-8163-d3c06413a9be
+
+
+## More Info
+
+
+I had a great time working on it, and I only wish I had more time to do even more.<br/>
+Making some tough decisions to meet today's deadline was necessary, but overall,<br/> 
+coding it was a fun experience, and I'm thrilled with the results! 🧑🏽‍💻
+
+
+**Time Spent:** around 9 hours from start to docs<br/>
+**Tech Stack:** Vue.js 3 with composition API, Typescript, SCSS
+
