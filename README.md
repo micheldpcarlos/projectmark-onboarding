@@ -1,27 +1,32 @@
-# projectmark-onboarding
+# ProjectMark coding Challenge
 
-This template should help get you started developing with Vue 3 in Vite.
+Project executed to show my skills as frontend engineer.
 
-## Recommended IDE Setup
+This project was made in one night and adresses all of the points requested in the :
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- ✅ Must be the same as the design on the screen
+- ✅ We will be looking for cleanliness of code and good design patterns
+- ✅ The checkboxes should be actionable. When you click one of them, the columns should change. You can change whatever way you want whether it is to show less or more.
+- ✅ Only one checkbox can be selected at a time.
+- ✅ Selected checkbox should have the blue outline
+- ✅ Top step buttons dont have to be actionable.
+- ✅ Add it to github or bitbucket and provide a link to the repo
+- ✅ Provide setup instructions on how to set it up and view
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Even tho I had little time to do it (1 night because somehow Programathor didn't send me notifications 🤔).
+I've included some extras like gh-pages configuration, dark mode toggle and linter configurations.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+This project is hosted here:
 
-## Customize configuration
+Gh-Pages-Link
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## How to run locally
 
-## Project Setup
+### Clone this repository and install dependencies
+
+> Thi project was built using node 20.5, please make sure you're using the correct version.
 
 ```sh
 npm install
@@ -31,16 +36,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```

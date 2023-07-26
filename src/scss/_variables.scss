@@ -77,4 +77,47 @@
 
   //title
   --title-color: var(--c-gray-800);
+
+  //pipeline button
+  --pipeline-button-border: 1px solid var(--c-gray-300);
+  --pipeline-button-border-selected: 2px solid var(--c-blue-highlight);
+  --pipeline-checkbox-border-empty: 2px solid var(--c-gray-400);
+  --pipeline-checkbox-border-checked: 2px solid var(--c-blue-highlight);
+  --pipeline-checkbox-bg-checked: var(--c-blue-highlight);
+
+  --stage-item-gradient: linear-gradient(180deg, transparent 0%, var(--c-white) 100%);
+}
+
+.dark {
+  --color-background: #181818;
+  --color-card-background: #121212;
+  --text-color: var(--c-gray-200);
+
+  // steps
+  --step-text-color: var(--c-gray-200);
+
+  --step-bg-color: var(--c-gray-200);
+  --step-color: var(--c-blue-darker);
+  --step-border: 1px solid var(--c-gray-500);
+
+  --step-bg-color-active: var(--c-gray-800);
+  --step-color-active: var(--c-gray-200);
+  --step-border-active: 1px solid var(--c-gray-800);
+
+  //title
+  --title-color: var(--c-gray-200);
+
+  //pipeline button
+  --pipeline-button-border: 1px solid var(--c-gray-800);
+
+  // Color fix to popover arrow
+  .popover-arrow {
+    &::after {
+      border-top-color: #121212 !important;
+    }
+  }
+
+  .stage-item {
+    filter: invert(1) brightness(3) saturate(0.8);
+  }
 }
