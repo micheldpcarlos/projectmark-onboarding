@@ -108,7 +108,7 @@ const toggleDarkMode = () => {
       display: flex;
       justify-content: center;
       gap: 10px;
-      margin: 42px 0;
+      margin: 42px 0 62px 0;
     }
 
     .stages {
