@@ -1,5 +1,7 @@
 :root {
   --c-blue-highlight: #2462d1;
+  --c-blue-dark: #1b3e67;
+  --c-blue-darker: #062952;
   --c-gray-200: #edf2f7;
   --c-gray-300: #e2e8f0;
   --c-gray-400: #cbd5e0;
@@ -45,10 +47,34 @@
 /* semantic color variables */
 :root {
   --color-background: var(--c-gray-200);
-  --card-background: var(--c-white);
+  --color-card-background: var(--c-white);
 
   --font-family-base: var(--ff-archivo);
   --font-family-narrow: var(--ff-archivo-narrow);
 
   --text-color: var(--c-gray-800);
+  --default-transitions: color 0.3s, background-color 0.3s;
+
+  // buttons
+  --button-bg-default: var(--c-white);
+  --button-color-default: var(--c-gray-800);
+  --button-hover-default: var(--c-gray-300);
+
+  --button-bg-highlight: var(--c-blue-highlight);
+  --button-color-highlight: var(--c-white);
+  --button-hover-highlight: var(--c-blue-dark);
+
+  // steps
+  --step-text-color: var(--c-gray-800);
+
+  --step-bg-color: var(--c-white);
+  --step-color: var(--c-blue-darker);
+  --step-border: 1px solid var(--c-gray-500);
+
+  --step-bg-color-active: var(--c-gray-800);
+  --step-color-active: var(--c-white);
+  --step-border-active: 1px solid var(--c-gray-800);
+
+  //title
+  --title-color: var(--c-gray-800);
 }

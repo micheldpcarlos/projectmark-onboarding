@@ -1,0 +1,25 @@
+.button {
+  display: inline-flex;
+  padding: 13px 21px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34px;
+  cursor: pointer;
+  background: var(--button-bg-default);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--button-color-default);
+  transition: var(--default-transitions);
+
+  &:hover {
+    background-color: var(--button-hover-default);
+  }
+
+  &.highlight {
+    background: var(--button-bg-highlight);
+    color: var(--button-color-highlight);
+    &:hover {
+      background-color: var(--button-hover-highlight);
+    }
+  }
+}
