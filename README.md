@@ -2,7 +2,7 @@
 
 Project executed to show my skills as a Frontend engineer at ProjectMark process.
 
-This project was made in one night and adresses all of the points requested in the :
+This project was made in one night and addresses all of the points requested in the chalenge:
 
 - ✅ Must be the same as the design on the screen
 - ✅ We will be looking for cleanliness of code and good design patterns
@@ -43,11 +43,6 @@ npm install
 npm run dev
 ```
 
-## How was it
-It was nice to work on it, I wish I had more time to do more. <br/>
-Some decisions I had to make to do it in time for today. <br/>
-Overall I had fun coding it and am really happy with my results 🧑🏽‍💻
-
 ## Screenshots and Video
 
 #### Design
@@ -59,4 +54,16 @@ Overall I had fun coding it and am really happy with my results 🧑🏽‍💻
 
 #### In Action
 https://github.com/micheldpcarlos/projectmark-onboarding/assets/29731180/a16ce42e-2b58-4cce-8163-d3c06413a9be
+
+
+## More Info
+
+
+I had a great time working on it, and I only wish I had more time to do even more.<br/>
+Making some tough decisions to meet today's deadline was necessary, but overall,<br/> 
+coding it was a fun experience, and I'm thrilled with the results! 🧑🏽‍💻
+
+
+**Time Spent:** around 9 hours from start to docs<br/>
+**Tech Stack:** Vue.js 3 with composition API, Typescript, SCSS
 
