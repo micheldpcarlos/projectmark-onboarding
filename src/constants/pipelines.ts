@@ -18,7 +18,7 @@ const pipelines: Pipeline[] = [
   {
     title: 'Basic',
     type: 'basic',
-    stages: [stages[0], stages[2], stages[3], stages[5], stages[6], stages[9]],
+    stages: [stages[0], stages[2], stages[3], stages[5], stages[7], stages[9]],
   },
   {
     title: 'Advanced',
@@ -30,7 +30,7 @@ const pipelines: Pipeline[] = [
       stages[3],
       stages[4],
       stages[5],
-      stages[6],
+      stages[7],
       stages[9],
     ],
   },
